@@ -36,7 +36,7 @@ def get_conditions(ti):
 
     lat = 42.5426944
     lon = -83.3257472
-    KEY = "24e01bd5db325140a2324d858d8de4fa"
+    KEY = ""
     URL = "https://api.openweathermap.org/data/2.5/weather?lat={}&lon={}&appid={}".format(lat,lon, KEY)
     r = requests.get(URL)
     data = r.json()
