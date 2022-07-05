@@ -1,0 +1,26 @@
+[2022-06-30 21:01:37,692] {processor.py:153} INFO - Started process (PID=74035) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:01:37,692] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-06-30 21:01:37,692] {logging_mixin.py:115} INFO - [2022-06-30 21:01:37,692] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:01:37,706] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:01:38,329] {logging_mixin.py:115} INFO - [2022-06-30 21:01:38,329] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2022-06-30 21:01:38,334] {logging_mixin.py:115} INFO - [2022-06-30 21:01:38,334] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2022-06-30 21:01:38,339] {logging_mixin.py:115} INFO - [2022-06-30 21:01:38,338] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2022-06-30 21:01:38,339] {logging_mixin.py:115} INFO - [2022-06-30 21:01:38,339] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:01:38,344] {logging_mixin.py:115} INFO - [2022-06-30 21:01:38,343] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2022-06-30 21:01:38,349] {logging_mixin.py:115} INFO - [2022-06-30 21:01:38,349] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2022-06-30T01:01:38.349445+00:00, run_after=2022-07-01T01:01:38.349445+00:00
+[2022-06-30 21:01:38,358] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.667 seconds
+[2022-06-30 21:15:20,889] {processor.py:153} INFO - Started process (PID=86889) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:15:20,890] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-06-30 21:15:20,891] {logging_mixin.py:115} INFO - [2022-06-30 21:15:20,891] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:15:20,901] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:15:21,381] {logging_mixin.py:115} INFO - [2022-06-30 21:15:21,381] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:15:21,385] {logging_mixin.py:115} INFO - [2022-06-30 21:15:21,385] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2022-06-30 21:15:21,391] {logging_mixin.py:115} INFO - [2022-06-30 21:15:21,391] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2022-06-30T01:15:21.390863+00:00, run_after=2022-07-01T01:15:21.390863+00:00
+[2022-06-30 21:15:21,401] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.512 seconds
+[2022-06-30 21:24:51,265] {processor.py:153} INFO - Started process (PID=95830) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:24:51,265] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-06-30 21:24:51,265] {logging_mixin.py:115} INFO - [2022-06-30 21:24:51,265] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:24:51,275] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-30 21:24:51,312] {logging_mixin.py:115} INFO - [2022-06-30 21:24:51,312] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:24:51,322] {logging_mixin.py:115} INFO - [2022-06-30 21:24:51,322] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2022-06-30T01:24:51.322386+00:00, run_after=2022-07-01T01:24:51.322386+00:00
+[2022-06-30 21:24:51,331] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds

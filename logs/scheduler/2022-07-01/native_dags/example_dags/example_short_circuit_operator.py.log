@@ -1,0 +1,26 @@
+[2022-06-30 21:01:40,418] {processor.py:153} INFO - Started process (PID=74076) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:01:40,418] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-06-30 21:01:40,418] {logging_mixin.py:115} INFO - [2022-06-30 21:01:40,418] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:01:40,450] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:01:41,130] {logging_mixin.py:115} INFO - [2022-06-30 21:01:41,130] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2022-06-30 21:01:41,135] {logging_mixin.py:115} INFO - [2022-06-30 21:01:41,135] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2022-06-30 21:01:41,139] {logging_mixin.py:115} INFO - [2022-06-30 21:01:41,139] {manager.py:508} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2022-06-30 21:01:41,139] {logging_mixin.py:115} INFO - [2022-06-30 21:01:41,139] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:01:41,145] {logging_mixin.py:115} INFO - [2022-06-30 21:01:41,144] {dag.py:2398} INFO - Creating ORM DAG for example_short_circuit_operator
+[2022-06-30 21:01:41,150] {logging_mixin.py:115} INFO - [2022-06-30 21:01:41,150] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-06-30T01:01:41.150189+00:00, run_after=2022-07-01T01:01:41.150189+00:00
+[2022-06-30 21:01:41,159] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.742 seconds
+[2022-06-30 21:15:23,324] {processor.py:153} INFO - Started process (PID=86928) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:15:23,326] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-06-30 21:15:23,326] {logging_mixin.py:115} INFO - [2022-06-30 21:15:23,326] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:15:23,351] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:15:23,795] {logging_mixin.py:115} INFO - [2022-06-30 21:15:23,795] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:15:23,804] {logging_mixin.py:115} INFO - [2022-06-30 21:15:23,804] {dag.py:2398} INFO - Creating ORM DAG for example_short_circuit_operator
+[2022-06-30 21:15:23,811] {logging_mixin.py:115} INFO - [2022-06-30 21:15:23,811] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-06-30T01:15:23.810992+00:00, run_after=2022-07-01T01:15:23.810992+00:00
+[2022-06-30 21:15:23,822] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.498 seconds
+[2022-06-30 21:24:53,012] {processor.py:153} INFO - Started process (PID=95856) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:24:53,013] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-06-30 21:24:53,014] {logging_mixin.py:115} INFO - [2022-06-30 21:24:53,014] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:24:53,037] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-06-30 21:24:53,083] {logging_mixin.py:115} INFO - [2022-06-30 21:24:53,083] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:24:53,093] {logging_mixin.py:115} INFO - [2022-06-30 21:24:53,093] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-06-30T01:24:53.093157+00:00, run_after=2022-07-01T01:24:53.093157+00:00
+[2022-06-30 21:24:53,100] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.088 seconds

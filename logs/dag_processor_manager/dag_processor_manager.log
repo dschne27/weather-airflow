@@ -1,0 +1,312 @@
+[2022-06-30 21:00:56,423] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2022-06-30 21:00:56,423] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-06-30 21:00:56,423] {manager.py:482} INFO - Checking for new files in /Users/danielschneider/airflow/dags every 300 seconds
+[2022-06-30 21:00:56,423] {manager.py:690} INFO - Searching for files in /Users/danielschneider/airflow/dags
+[2022-06-30 21:00:56,437] {manager.py:693} INFO - There are 35 files in /Users/danielschneider/airflow/dags
+[2022-06-30 21:01:28,154] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.77s           2022-07-01T01:01:01
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.10s           2022-07-01T01:01:00
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  1.69s           2022-07-01T01:00:58
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.73s           2022-07-01T01:01:28
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.64s           2022-07-01T01:01:06
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.54s           2022-07-01T01:01:09
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.65s           2022-07-01T01:01:04
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.47s           2022-07-01T01:01:11
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.64s           2022-07-01T01:01:25
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.44s           2022-07-01T01:01:17
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.76s           2022-07-01T01:01:19
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.68s           2022-07-01T01:01:22
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.69s           2022-07-01T01:01:14
+================================================================================
+[2022-06-30 21:02:00,281] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.73s           2022-07-01T01:01:51
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.69s           2022-07-01T01:01:57
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.77s           2022-07-01T01:01:01
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  1.10s           2022-07-01T01:01:00
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  1.69s           2022-07-01T01:00:58
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.49s           2022-07-01T01:01:55
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.73s           2022-07-01T01:01:28
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.67s           2022-07-01T01:01:44
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.64s           2022-07-01T01:01:06
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.74s           2022-07-01T01:01:41
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.54s           2022-07-01T01:01:09
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.62s           2022-07-01T01:01:30
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.65s           2022-07-01T01:01:04
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.47s           2022-07-01T01:01:11
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.47s           2022-07-01T01:01:36
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.46s           2022-07-01T01:01:46
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.48s           2022-07-01T01:01:53
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.64s           2022-07-01T01:01:25
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.44s           2022-07-01T01:01:17
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.58s           2022-07-01T01:01:38
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.76s           2022-07-01T01:01:19
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.75s           2022-07-01T01:01:49
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.68s           2022-07-01T01:01:22
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.60s           2022-07-01T01:02:00
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.69s           2022-07-01T01:01:14
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.64s           2022-07-01T01:01:33
+================================================================================
+[2022-06-30 21:02:31,922] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.73s           2022-07-01T01:01:51
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.69s           2022-07-01T01:01:57
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.67s           2022-07-01T01:02:29
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-07-01T01:02:27
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  0.89s           2022-07-01T01:02:26
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.49s           2022-07-01T01:01:55
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.73s           2022-07-01T01:01:28
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.67s           2022-07-01T01:02:05
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.67s           2022-07-01T01:01:44
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.64s           2022-07-01T01:01:06
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  1.75s           2022-07-01T01:02:24
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.74s           2022-07-01T01:01:41
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  1.74s           2022-07-01T01:02:13
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.54s           2022-07-01T01:01:09
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.63s           2022-07-01T01:02:16
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.62s           2022-07-01T01:01:30
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.35s           2022-07-01T01:02:31
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.47s           2022-07-01T01:01:11
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.47s           2022-07-01T01:01:36
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.46s           2022-07-01T01:01:46
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.48s           2022-07-01T01:01:53
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.64s           2022-07-01T01:01:25
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.51s           2022-07-01T01:02:02
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.44s           2022-07-01T01:01:17
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.82s           2022-07-01T01:02:10
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.67s           2022-07-01T01:02:18
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.58s           2022-07-01T01:01:38
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.76s           2022-07-01T01:01:19
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.63s           2022-07-01T01:02:07
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  1.53s           2022-07-01T01:02:21
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.75s           2022-07-01T01:01:49
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.68s           2022-07-01T01:01:22
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.60s           2022-07-01T01:02:00
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.69s           2022-07-01T01:01:14
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.64s           2022-07-01T01:01:33
+================================================================================
+[2022-06-30 21:02:38,001] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-06-30 21:14:47,206] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2022-06-30 21:14:47,207] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-06-30 21:14:47,207] {manager.py:482} INFO - Checking for new files in /Users/danielschneider/airflow/dags every 300 seconds
+[2022-06-30 21:14:47,207] {manager.py:690} INFO - Searching for files in /Users/danielschneider/airflow/dags
+[2022-06-30 21:14:47,223] {manager.py:693} INFO - There are 35 files in /Users/danielschneider/airflow/dags
+[2022-06-30 21:15:17,690] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.70s           2022-07-01T01:14:52
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.78s           2022-07-01T01:14:50
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  1.20s           2022-07-01T01:14:48
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.22s           2022-07-01T01:15:13
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.40s           2022-07-01T01:14:56
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.48s           2022-07-01T01:14:58
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.31s           2022-07-01T01:15:15
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.29s           2022-07-01T01:14:54
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.65s           2022-07-01T01:15:01
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.35s           2022-07-01T01:15:11
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.29s           2022-07-01T01:15:04
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.24s           2022-07-01T01:15:07
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.24s           2022-07-01T01:15:09
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.48s           2022-07-01T01:15:02
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.36s           2022-07-01T01:15:17
+================================================================================
+[2022-06-30 21:15:48,458] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.74s           2022-07-01T01:15:32
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.85s           2022-07-01T01:15:38
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.70s           2022-07-01T01:14:52
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.78s           2022-07-01T01:14:50
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  1.20s           2022-07-01T01:14:48
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  1.27s           2022-07-01T01:15:36
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.22s           2022-07-01T01:15:13
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   1           0  1.46s           2022-07-01T01:15:44
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.24s           2022-07-01T01:15:26
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.40s           2022-07-01T01:14:56
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.40s           2022-07-01T01:15:24
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  1.48s           2022-07-01T01:14:58
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  1.31s           2022-07-01T01:15:15
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.29s           2022-07-01T01:14:54
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  1.65s           2022-07-01T01:15:01
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  1.31s           2022-07-01T01:15:19
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.17s           2022-07-01T01:15:28
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.36s           2022-07-01T01:15:34
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  1.35s           2022-07-01T01:15:11
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.23s           2022-07-01T01:15:42
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.29s           2022-07-01T01:15:04
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.37s           2022-07-01T01:15:48
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  1.28s           2022-07-01T01:15:21
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  1.24s           2022-07-01T01:15:07
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  1.19s           2022-07-01T01:15:46
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.22s           2022-07-01T01:15:30
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  1.24s           2022-07-01T01:15:09
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  1.22s           2022-07-01T01:15:39
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.48s           2022-07-01T01:15:02
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  1.36s           2022-07-01T01:15:17
+================================================================================
+[2022-06-30 21:15:53,772] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-06-30 21:24:20,473] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2022-06-30 21:24:20,474] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-06-30 21:24:20,474] {manager.py:482} INFO - Checking for new files in /Users/danielschneider/airflow/dags every 300 seconds
+[2022-06-30 21:24:20,474] {manager.py:690} INFO - Searching for files in /Users/danielschneider/airflow/dags
+[2022-06-30 21:24:20,485] {manager.py:693} INFO - There are 35 files in /Users/danielschneider/airflow/dags
+[2022-06-30 21:24:50,403] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.81s           2022-07-01T01:24:25
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-07-01T01:24:23
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  1.16s           2022-07-01T01:24:21
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.44s           2022-07-01T01:24:45
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.39s           2022-07-01T01:24:29
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.90s           2022-07-01T01:24:31
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.87s           2022-07-01T01:24:46
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.24s           2022-07-01T01:24:27
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.83s           2022-07-01T01:24:33
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.85s           2022-07-01T01:24:50
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.83s           2022-07-01T01:24:42
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.25s           2022-07-01T01:24:37
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.88s           2022-07-01T01:24:39
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.76s           2022-07-01T01:24:40
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.29s           2022-07-01T01:24:35
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.87s           2022-07-01T01:24:48
+================================================================================
+[2022-06-30 21:25:22,053] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  1.28s           2022-07-01T01:25:00
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.73s           2022-07-01T01:25:06
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.81s           2022-07-01T01:24:25
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-07-01T01:24:23
+/Users/danielschneider/airflow/dags/first.py                                                                                                               1           0  1.16s           2022-07-01T01:24:21
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.86s           2022-07-01T01:25:04
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.44s           2022-07-01T01:24:45
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.74s           2022-07-01T01:25:11
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.82s           2022-07-01T01:24:54
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  1.39s           2022-07-01T01:24:29
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.76s           2022-07-01T01:24:53
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.93s           2022-07-01T01:25:17
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.90s           2022-07-01T01:24:31
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.04s           2022-07-01T01:25:19
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.87s           2022-07-01T01:24:46
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  1.24s           2022-07-01T01:24:27
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.83s           2022-07-01T01:24:33
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.85s           2022-07-01T01:24:50
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  1.01s           2022-07-01T01:24:56
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  1.39s           2022-07-01T01:25:02
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.83s           2022-07-01T01:24:42
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  1.49s           2022-07-01T01:25:10
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  1.25s           2022-07-01T01:24:37
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.80s           2022-07-01T01:25:15
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  1.45s           2022-07-01T01:25:22
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.67s           2022-07-01T01:24:51
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.88s           2022-07-01T01:24:39
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.76s           2022-07-01T01:25:13
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  1.52s           2022-07-01T01:24:58
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.76s           2022-07-01T01:24:40
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.79s           2022-07-01T01:25:08
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  1.29s           2022-07-01T01:24:35
+/Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.87s           2022-07-01T01:24:48
+================================================================================
+[2022-06-30 21:25:33,515] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15

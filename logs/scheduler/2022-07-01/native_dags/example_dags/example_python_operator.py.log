@@ -1,0 +1,26 @@
+[2022-06-30 21:01:43,040] {processor.py:153} INFO - Started process (PID=74123) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:01:43,041] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-06-30 21:01:43,041] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,041] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:01:43,080] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:01:43,788] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,788] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2022-06-30 21:01:43,794] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,793] {manager.py:508} INFO - Created Permission View: can read on DAG:example_python_operator
+[2022-06-30 21:01:43,798] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,798] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2022-06-30 21:01:43,798] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,798] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:01:43,804] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,803] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2022-06-30 21:01:43,809] {logging_mixin.py:115} INFO - [2022-06-30 21:01:43,809] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-06-30 21:01:43,819] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.779 seconds
+[2022-06-30 21:15:25,685] {processor.py:153} INFO - Started process (PID=86969) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:15:25,686] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-06-30 21:15:25,686] {logging_mixin.py:115} INFO - [2022-06-30 21:15:25,686] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:15:25,710] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:15:26,113] {logging_mixin.py:115} INFO - [2022-06-30 21:15:26,113] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:15:26,117] {logging_mixin.py:115} INFO - [2022-06-30 21:15:26,117] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2022-06-30 21:15:26,122] {logging_mixin.py:115} INFO - [2022-06-30 21:15:26,122] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-06-30 21:15:26,133] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.449 seconds
+[2022-06-30 21:24:54,127] {processor.py:153} INFO - Started process (PID=95874) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:24:54,128] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-06-30 21:24:54,129] {logging_mixin.py:115} INFO - [2022-06-30 21:24:54,129] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:24:54,154] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-30 21:24:54,199] {logging_mixin.py:115} INFO - [2022-06-30 21:24:54,199] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:24:54,210] {logging_mixin.py:115} INFO - [2022-06-30 21:24:54,210] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-06-30 21:24:54,221] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.095 seconds

@@ -1,0 +1,26 @@
+[2022-06-30 21:01:29,879] {processor.py:153} INFO - Started process (PID=73905) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:01:29,879] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-06-30 21:01:29,880] {logging_mixin.py:115} INFO - [2022-06-30 21:01:29,880] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:01:29,891] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:01:30,526] {logging_mixin.py:115} INFO - [2022-06-30 21:01:30,525] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2022-06-30 21:01:30,531] {logging_mixin.py:115} INFO - [2022-06-30 21:01:30,531] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2022-06-30 21:01:30,535] {logging_mixin.py:115} INFO - [2022-06-30 21:01:30,535] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2022-06-30 21:01:30,536] {logging_mixin.py:115} INFO - [2022-06-30 21:01:30,535] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:01:30,541] {logging_mixin.py:115} INFO - [2022-06-30 21:01:30,541] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2022-06-30 21:01:30,547] {logging_mixin.py:115} INFO - [2022-06-30 21:01:30,547] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-06-30T01:01:30.547361+00:00, run_after=2022-07-01T01:01:30.547361+00:00
+[2022-06-30 21:01:30,556] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.677 seconds
+[2022-06-30 21:15:15,181] {processor.py:153} INFO - Started process (PID=86794) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:15:15,182] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-06-30 21:15:15,182] {logging_mixin.py:115} INFO - [2022-06-30 21:15:15,182] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:15:15,193] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:15:15,625] {logging_mixin.py:115} INFO - [2022-06-30 21:15:15,625] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:15:15,629] {logging_mixin.py:115} INFO - [2022-06-30 21:15:15,629] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2022-06-30 21:15:15,634] {logging_mixin.py:115} INFO - [2022-06-30 21:15:15,634] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-06-30T01:15:15.634668+00:00, run_after=2022-07-01T01:15:15.634668+00:00
+[2022-06-30 21:15:15,644] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.464 seconds
+[2022-06-30 21:24:46,762] {processor.py:153} INFO - Started process (PID=95735) to work on /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:24:46,763] {processor.py:641} INFO - Processing file /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-06-30 21:24:46,763] {logging_mixin.py:115} INFO - [2022-06-30 21:24:46,763] {dagbag.py:507} INFO - Filling up the DagBag from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:24:46,775] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-06-30 21:24:46,818] {logging_mixin.py:115} INFO - [2022-06-30 21:24:46,818] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-30 21:24:46,828] {logging_mixin.py:115} INFO - [2022-06-30 21:24:46,828] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-06-30T01:24:46.828464+00:00, run_after=2022-07-01T01:24:46.828464+00:00
+[2022-06-30 21:24:46,838] {processor.py:161} INFO - Processing /Users/danielschneider/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.077 seconds
